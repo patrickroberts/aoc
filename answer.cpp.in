@@ -1,0 +1,10 @@
+#include "@AOC_SOLUTION@"
+
+#include <aoc/string.hpp>
+
+#include <iostream>
+
+int main() {
+  std::cout << "https://adventofcode.com/@YEAR@/day/@DAY@" << std::endl;
+  std::cout << "part @PART@ @KIND@ = " << solution::fn<aoc::mp_from_strings<@AOC_INPUT@>>::value << std::endl;
+}

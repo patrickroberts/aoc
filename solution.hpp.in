@@ -1,0 +1,11 @@
+#pragma once
+
+#include <boost/mp11.hpp>
+
+namespace solution {
+
+namespace mp11 = boost::mp11;
+
+template <class L> using fn = mp11::mp_size<L>;
+
+} // namespace solution
